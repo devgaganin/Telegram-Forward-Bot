@@ -7,9 +7,10 @@
     "start": "node main.js"
   },
   "engines": {
-    "node": "14.x" // Ensure Heroku uses a compatible Node.js version
+    "node": "14.x"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.55.0"
+    "node-telegram-bot-api": "^0.55.0",
+    "fs": "0.0.1-security"
   }
 }
