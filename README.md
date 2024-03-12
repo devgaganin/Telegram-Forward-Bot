@@ -10,8 +10,9 @@ This Telegram bot facilitates the forwarding of messages from one channel to ano
 
 ## Setup
 
-1. **Fill Bot Token and User ID**: In the `main.js` file, replace `botToken` with your bot token and `ownerUserId` with your ID.
-2. **Deploy the Bot**: Deploy the bot by clicking the following link:
+1. **Fork the repo**: For the repo with your own name.
+2. **Fill Bot Token and User ID**: In the `main.js` file, replace `botToken` with your bot token and `ownerUserId` with your ID.
+3. **Deploy the Bot**: Deploy the bot by clicking the following link:
    [![Deploy on Heroku](https://img.shields.io/badge/Deploy%20on%20Heroku-4e5d71?style=for-the-badge&logo=heroku)](https://heroku.com/deploy)
 
 ## Usage
@@ -33,9 +34,9 @@ This Telegram bot facilitates the forwarding of messages from one channel to ano
 
 ## Contact
 
-- Website: [![Website](https://img.shields.io/badge/Visit%20Website-4e5d71?style=for-the-badge&logo=dev.to)](https://devgagan.in)
-- Telegram: [![Telegram](https://img.shields.io/badge/Join%20Telegram-4e5d71?style=for-the-badge&logo=telegram)](https://t.me/dev_gagan)
-- YouTube: [![YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-4e5d71?style=for-the-badge&logo=youtube)](https://youtube.com/@dev_gagan)
+- **Website**:  [![Website](https://img.shields.io/badge/Visit%20Website-4e5d71?style=for-the-badge&logo=dev.to)](https://devgagan.in)
+- **Telegram**:  [![Telegram](https://img.shields.io/badge/Join%20Telegram-4e5d71?style=for-the-badge&logo=telegram)](https://t.me/dev_gagan)
+- **YouTube**:  [![YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-4e5d71?style=for-the-badge&logo=youtube)](https://youtube.com/@dev_gagan)
 
 ## Dependencies
 
