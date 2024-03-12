@@ -7,11 +7,11 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your Telegram bot token this is just a field fill the variable in main.js file",
-      "required": true
+      "required": false
     },
     "OWNER_USER_ID": {
       "description": "Your user ID as the bot owner in main.js file",
-      "required": true
+      "required": false
     }
   },
   "scripts": {
