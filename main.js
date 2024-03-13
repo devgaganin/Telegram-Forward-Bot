@@ -73,7 +73,7 @@ bot.onText(/\/auth (\d+)/, (msg, match) => {
     saveAuthorizedUsers(); 
     bot.sendMessage(chatId, `User ${userId} is now authorized to use the bot...`);
   } else {
-    bot.sendMessage(chatId, 'You are not authorized to perform this action...);
+    bot.sendMessage(chatId, 'You are not authorized to perform this action...');
   }
 });
 
@@ -110,7 +110,7 @@ bot.onText(/\/start/, async (msg) => {
     reply_markup: {
       inline_keyboard: [
         [{ text: '𝙊𝙬𝙣𝙚𝙧', url: 'https://t.me/gazabho' }],
-        [{ text: '𝙂𝙚𝙩 𝙔𝙤𝙪𝙧𝙨𝙚𝙡𝙛 𝘼𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙', url: 'https://t.me/+xUJ7VIn5eUUzN2Vl' }],
+        [{ text: '𝙂𝙚𝙩 𝙔𝙤𝙪𝙧𝙨𝙚𝙡𝙛 𝘼𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙', url: 'https://t.me/dev_gagan' }],
       ],
     },
   });
