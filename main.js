@@ -5,10 +5,10 @@
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 
-const botToken = 'Your_Token_Here'; // Replace with your bot token
+const botToken = '6745896777:AAF5yS95A7AJwl2wCm7wkr-vpBT1LCVWRPg'; // Replace with your bot token
 const bot = new TelegramBot(botToken, { polling: true });
 
-const ownerUserId = 5792432243; // Replace with your user ID
+const ownerUserId = 6964148334; // Replace with your user ID
 const authorizedUsers = {}; // Object to store authorized user IDs and their data
 
 const startMessage = "Welcome to 𝐒𝐏𝐘 𝐅𝐎𝐑𝐖𝐀𝐑𝐃 𝐁𝐎𝐓 made with ❤️ by 𝙂𝙖𝙜𝙖𝙣!!! \n\n✨Embrace the Power of Forwarding✨ \n\nAre you tired of manual message forwarding? 𝐒𝐏𝐘 𝐅𝐎𝐑𝐖𝐀𝐑𝐃 𝐁𝐎𝐓 is here to make your life easier. \n\nSeamlessly forward messages from one chat to another with just a few clicks.\n\n🚀 Fast: Instantly transmit messages to your desired destination.\n\🔒 Secure: Maintain your data integrity and privacy throughout the process.\n🤖 Techy: Harness the potential of automation and advanced messaging solutions.\n\nFor any inquiries or assistance, feel free to contact us to get authorozed to use this bot.\n\nLet's make message forwarding smarter, faster, and more efficient with 𝐒𝐏𝐘 𝐅𝐎𝐑𝐖𝐀𝐑𝐃 𝐁𝐎𝐓! 🌟🤖"
